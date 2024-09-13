@@ -62,6 +62,7 @@ public class Main {
         System.out.println();
 
         System.out.println("Задание 4");
+        var1 = new int[]{1, 2, 3};
         for (int i = 0; i < var1.length; i++) {
             if(var1[i] % 2 != 0) {
                 var1[i] = var1[i] + 1;
